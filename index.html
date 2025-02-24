@@ -1,1 +1,313 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Fiamma dal ciel su le tue treccie piova (Canzoniere, 136)</title>
+  <!-- Import Google Fonts per una tipografia più moderna -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Impostazioni base e background con immagine */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+      background: url('https://source.unsplash.com/1600x900/?parchment,old-paper') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      position: relative;
+    }
+    /* Overlay per rendere il testo ben leggibile sull'immagine di sfondo */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      z-index: -1;
+    }
+    /* Header e titolazione */
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #800000;
+      text-shadow: 1px 1px 2px #fff;
+    }
+    /* Introduzione con sfondo tenue e bordi colorati */
+    .intro {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 2px solid #800000;
+      background-color: rgba(255, 248, 240, 0.9);
+      border-radius: 10px;
+    }
+    .intro p {
+      margin-bottom: 15px;
+    }
+    /* Sezioni e layout a colonne */
+    .section {
+      margin-bottom: 40px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+    .column {
+      flex: 1;
+      padding: 20px;
+      border: 2px solid #800000;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    h2, h3 {
+      text-align: center;
+      color: #800000;
+    }
+    h3 {
+      margin-bottom: 10px;
+    }
+    /* Stili per le parole interattive */
+    .word {
+      cursor: pointer;
+      padding: 2px 4px;
+      margin: 0 2px;
+      transition: background-color 0.3s, color 0.3s;
+      border-radius: 4px;
+    }
+    .word:hover {
+      background-color: #ffe4e1;
+    }
+    .highlight {
+      background-color: yellow;
+      font-weight: 600;
+    }
+    /* Stili specifici per i testi originali e le parafrasi */
+    .original p {
+      margin: 5px 0;
+    }
+    .paraphrase p {
+      margin: 10px 0;
+      text-align: justify;
+    }
+    /* Stile per le note a piè di pagina */
+    .footnote {
+      margin-top: 20px;
+      font-size: 0.9em;
+      border-top: 2px solid #800000;
+      padding-top: 10px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+    }
+    sup {
+      font-size: 0.8em;
+      vertical-align: super;
+      color: #800000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Titolo -->
+  <div class="header">
+    <h1>Fiamma dal ciel su le tue treccie piova (Canzoniere, 136)</h1>
+  </div>
+
+  <!-- Introduzione -->
+  <div class="intro">
+    <p>
+      Il sonetto "Fiamma dal ciel su le tue treccie piova" di Francesco Petrarca è una feroce invettiva contro la corruzione della Curia papale di Avignone, personificata come una donna malvagia e decadente. Petrarca denuncia la degenerazione morale della Chiesa, un tempo povera e virtuosa, ora ricca e dedita ai vizi. Attraverso immagini vivide, il poeta invoca una punizione divina per purificare la Chiesa dalla sua decadenza.
+    </p>
+    <p>
+      Questo sonetto, il 136° del "Canzoniere", fa parte di una trilogia (insieme ai sonetti 137 e 138) in cui Petrarca critica aspramente la Babilonia avara, ossia la Curia avignonese, per la sua avidità e lussuria.
+    </p>
+    <p>
+      <strong>Lingua:</strong> l'autore utilizza un linguaggio realistico e metaforico, tipico della tradizione letteraria comica e dell'invettiva politica, per esprimere il suo sdegno verso la corruzione ecclesiastica. Il lessico è arricchito da latinismi e termini rari (hapax) come (Luxuria, mantici, lezzo, Belzebub, trescando), oltreché un linguaggio fortemente espressivo e suoni aspri che ricordano alcuni canti dell'Inferno dantesco.
+    </p>
+    <p>
+      <strong>Metrica e retorica:</strong> la struttura metrica segue lo schema ABBA, ABBA, CDC, DCD; anche se il linguaggio usato da Petrarca farebbe pensare tutt'altro, il poeta esercita un forte controllo sulla forma espressiva: esso appare nella struttura metrico-sintattica, nell’uso di coppie di termini o di termini fra loro coordinati (es. "dal fiume et da le ghiande") e nella presenza di figure retoriche quali antitesi e parallelismi.
+    </p>
+  </div>
+
+  <!-- 1° Quartina -->
+  <div class="section">
+    <div class="container">
+      <!-- 1° Quartina: Testo Originale -->
+      <div class="column original">
+        <h3>1° Quartina (Originale)</h3>
+        <p>
+          <span class="word" data-id="1">Fiamma</span><sup>1</sup>
+          <span class="word" data-id="2">dal ciel</span><sup>2</sup>
+          <span class="word" data-id="3">su le tue trecce</span>
+          <span class="word" data-id="4">piova,</span>
+        </p>
+        <p>
+          <span class="word" data-id="5">malvagia,</span><sup>3</sup>
+          <span class="word" data-id="6">che</span>
+          <span class="word" data-id="7">dal fiume</span><sup>4</sup>
+          <span class="word" data-id="7"> et da le ghiande</span>
+        </p>
+        <p>
+          <span class="word" data-id="8">per l’altrui impoverir</span>
+          <span class="word" data-id="9">se’ ricca et grande,</span><sup>5</sup>
+        </p>
+        <p>
+          <span class="word" data-id="10">poi che</span>
+          <span class="word" data-id="11">di mal oprar</span>
+          <span class="word" data-id="12">tanto ti giova;</span>
+        </p>
+      </div>
+
+      <!-- 1° Quartina: Parafrasi -->
+      <div class="column paraphrase">
+        <h3>1° Quartina (Parafrasi)</h3>
+        <p>
+          <span class="word" data-id="1">una fiamma</span>
+          <span class="word" data-id="2">dal cielo</span>
+          <span class="word" data-id="3">sulle tue trecce</span>
+          <span class="word" data-id="4">cada,</span>
+          <span class="word" data-id="5">o malvagia</span> [donna],
+          <span class="word" data-id="6">che</span>
+          <span class="word" data-id="7">[partita] dalle ghiande e dall'acqua fiumana</span>,
+          <span class="word" data-id="8">grazie all'impoverimento degli altri</span>
+          <span class="word" data-id="9">sei diventata ricca e potente,</span>
+          <span class="word" data-id="10">dopoché</span>
+          <span class="word" data-id="11">dal tuo cattivo operare</span>
+          <span class="word" data-id="12">hai tratto tanto vantaggio.</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Note per la 1° Quartina -->
+    <div class="footnote">
+      <p><sup>1</sup> "Fiamma": in iperbato (dovrebbe essere vicino a "piova" ma i due elementi sono divisi da "dal ciel su le tue trecce").</p>
+      <p><sup>2</sup> "fiume": è metonimia perché indica l'acqua del fiume. Con l'espressione "dal fiume et da le ghiande" Petrarca fa riferimento alle condizioni di vita dei primi cristiani, che vivevano poveramente, bevendo l'acqua dei fiumi e cibandosi di ghiande (tradizionalmente alimento dei poveri in tempo di carestia); una parafrasi più libera potrebbe essere "Una fiamma dal cielo possa cadere sulle tue trecce, o malvagia donna [Avignone], che sei diventata ricca e potente dopo aver bevuto l'acqua del fiume e aver mangiato le ghiande in passato".</p>
+      <p><sup>3</sup> "ricca": in "impoverir se’ ricca" è antitesi.</p>
+      <p><sup>4</sup> "fiamma dal ciel": Nel Libro della Genesi (XIX, 24), si racconta che le città di Sodoma e Gomorra furono distrutte da Dio con una pioggia di fuoco e zolfo a causa della loro estrema corruzione e immoralità. Questo evento è un simbolo del castigo divino contro il peccato e l’empietà, e Petrarca lo richiama per augurare una punizione simile alla Curia avignonese, colpevole, secondo lui, di aver tradito i valori della Chiesa.</p>
+      <p><sup>5</sup> "malvagia": Allo stesso modo, la Curia avignonese viene metaforicamente identificata con una meretrice, come accade nella Babilonia la grande dell’Apocalisse (XVII, 1-5). In questo passo biblico, Babilonia rappresenta un potere corrotto e lussurioso che si prostituisce ai re della terra, abbandonandosi alla ricchezza e agli eccessi.</p>
+    </div>
+  </div>
+
+  <!-- 2° Quartina -->
+  <div class="section">
+    <div class="container">
+      <!-- 2° Quartina: Testo Originale -->
+      <div class="column original">
+        <h3>2° Quartina (Originale)</h3>
+        <p>
+          <span class="word" data-id="13">nido di tradimenti, in cui si cova</span><sup>1</sup><br>
+          <span class="word" data-id="14">quanto mal per lo mondo oggi si spande,</span><br>
+          <span class="word" data-id="15">de vin serva, di lecti et di vivande,</span><sup>2</sup><br>
+          <span class="word" data-id="16">in cui Luxuria fa l’ultima prova.</span><sup>3</sup>
+        </p>
+      </div>
+
+      <!-- 2° Quartina: Parafrasi -->
+      <div class="column paraphrase">
+        <h3>2° Quartina (Parafrasi)</h3>
+        <p>
+          <span class="word" data-id="13">nido di tradimenti, in cui si cova</span><sup>4</sup>
+          <span class="word" data-id="14">quanto di male per lo mondo oggi si spande,</span>
+          <span class="word" data-id="15">serva del vino, dei letti e del cibo,</span>
+          <span class="word" data-id="16">in cui la lussuria dà la massima prova.</span><sup>6</sup>
+        </p>
+      </div>
+    </div>
+    <!-- Note per la 2° Quartina -->
+    <div class="footnote">
+      <p><sup>1</sup> "si cova\quanto mal" enjambement: "nido": metafora; tra le accuse di Petrarca alla Curia avignonese c'è soprattutto quella morale, poiché essa è diventata un "nido di tradimenti" in cui i prelati sono dediti al peccato di gola (attraverso il riferimento al "vin" e alle "vivande", poste in rima con "ghiande" per creare un contrasto) e a quelli carnali, con il richiamo ai "lecti" e alle "fanciulle" (la Curia è paragonata a una giovane e bella donna con le trecce bionde).</p>
+      <p><sup>2</sup> "di lecti et": latinismo.</p>
+      <p><sup>3</sup> "Luxuria": latinismo; "prova": l'autore accusa la Chiesa di non essere più una guida spirituale, ma la principale responsabile della diffusione del male nel mondo. La critica si fa ancora più aspra con l'elenco dei vizi: il vino, i piaceri carnali e i banchetti, simboli di una vita dedita all’eccesso e alla lussuria, che in quel luogo dà il meglio di sé. Invece di vivere nella povertà e nella virtù, la Curia si abbandona ai piaceri materiali, tradendo la sua missione originaria.</p>
+    </div>
+  </div>
+
+  <!-- Terzine -->
+  <div class="section">
+    <div class="container">
+      <!-- Terzine: Testo Originale -->
+      <div class="column original">
+        <h3>Terzine (Originale)</h3>
+        <!-- Prima Terzina -->
+        <p>
+          <span class="word" data-id="17a">Per le camere tue</span>
+          <span class="word" data-id="17b"> fanciulle et vecchi</span><sup>11</sup><br>
+          <span class="word" data-id="18a">vanno trescando,</span>
+          <span class="word" data-id="18b"> et Belzebub</span>
+          <span class="word" data-id="18c"> in mezzo</span><br>
+          <span class="word" data-id="19">co’ mantici et col foco et co li specchi.</span><sup>12</sup>
+        </p>
+        <!-- Seconda Terzina -->
+        <p>
+          <span class="word" data-id="20">Già non fostú</span>
+          <span class="word" data-id="21">nudrita in piume</span>
+          <span class="word" data-id="22">al rezzo,</span><sup>13</sup><br>
+          <span class="word" data-id="24">ma nuda al vento, et scalza fra gli stecchi:</span><br>
+          <span class="word" data-id="25">or vivi</span>
+          <span class="word" data-id="26"> sí ch’</span>
+          <span class="word" data-id="27">a Dio</span>
+          <span class="word" data-id="28"> ne venga</span>
+          <span class="word" data-id="29"> il lezzo.</span><sup>14</sup>
+        </p>
+      </div>
+
+      <!-- Terzine: Parafrasi -->
+      <div class="column paraphrase">
+        <h3>Terzine (Parafrasi)</h3>
+        <p>
+          <span class="word" data-id="17a">Per le tue camere</span>, 
+          <span class="word" data-id="17b"> le fanciulle e i vecchi</span> 
+          <span class="word" data-id="18a">vanno a fare tresche,</span> 
+          <span class="word" data-id="18b"> e Belzebù</span> 
+          <span class="word" data-id="18c"> [se ne sta] in mezzo</span> 
+          <span class="word" data-id="19">con i mantici e col fuoco e con gli specchi.</span>
+          <br>
+          <span class="word" data-id="20">già tu non fosti</span>
+          <span class="word" data-id="21">allevata tra le piume</span>
+          <span class="word" data-id="22">all'ombra</span>
+          <span class="word" data-id="24">ma nuda al vento e scalza tra gli sterpi:</span> 
+          <span class="word" data-id="25">ora vivi</span> 
+          <span class="word" data-id="26">così che</span> 
+          <span class="word" data-id="27">fino a Dio</span> 
+          <span class="word" data-id="28">arrivi</span> 
+          <span class="word" data-id="29">la tua puzza.</span>
+        </p>
+      </div>
+    </div>
+    <!-- Note per le Terzine -->
+    <div class="footnote">
+      <p><sup>11</sup> "le camere tue": anastrofe; "fanciulle et vecchi \ vanno trescando" enjambement</p>
+      <p><sup>12</sup> Al centro di questo luogo di corruzione regna il diavolo in persona, indicato con il nome di Belzebù, intento ad alimentare il fuoco con i "mantici" (strumenti per soffiare aria sulle fiamme) e a fomentare la vanità femminile con gli "specchi". Si tratta dunque di una metafora che, attraverso la presenza di Belzebù al centro, circondato da mantici, specchi e fuoco, simboleggia il fatto che la Curia avignonese sia un luogo completamente dominato dal male, dove il peccato non solo viene praticato, ma costantemente alimentato, come un incendio che divampa senza controllo.</p>
+      <p><sup>13</sup> L'espressione "tu non fosti allevata in piume al rezzo" significa che in origine la Chiesa (qui identificata con la Curia avignonese) non era nata nel lusso e nella comodità, ma in condizioni di povertà e sacrificio. Petrarca sottolinea così che la Chiesa delle origini era umile e austera, ispirata ai valori evangelici della semplicità e della povertà, mentre ora, sotto il dominio della Curia avignonese, si è trasformata in una realtà corrotta, immersa nella ricchezza e nei piaceri materiali.
+      <p><sup>14</sup> Negli ultimi versi compaiono svariate metafore: la chiesa, che non è cresciuta in mezzo alle piume e al fresco dell'ombra (metafora per indicare la comodità) ma nuda, esposta al vento e scalza tra le spine (metafora per indicare le condizioni avverse che la Chiesa cristiana ha dovuto superare agli inizi) ora è a tal punto corrotta che il poeta spera che la sua puzza (altra metafora: si intende la condotta marcia della Curia avignonese) arrivi fin sopra a Dio, in modo che possa prenderne provvedimenti punendola con una pioggia di fuoco.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    // Evidenziazione incrociata: al passaggio del mouse, tutti gli span con lo stesso data-id vengono evidenziati
+    const words = document.querySelectorAll('.word');
+    words.forEach(word => {
+      word.addEventListener('mouseover', () => {
+        const id = word.getAttribute('data-id');
+        if (id) {
+          document.querySelectorAll(`.word[data-id="${id}"]`).forEach(el => {
+            el.classList.add('highlight');
+          });
+        }
+      });
+      word.addEventListener('mouseout', () => {
+        const id = word.getAttribute('data-id');
+        if (id) {
+          document.querySelectorAll(`.word[data-id="${id}"]`).forEach(el => {
+            el.classList.remove('highlight');
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
 
